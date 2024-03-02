@@ -8,66 +8,87 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="header" class="grid-con">
         <h1 class="hidden">Responsive grid for Midterm</h1>
-        <div>
-            <div class="box">logo</div>
-            <nav class="box">Nav</nav>
-            <div class="box">search</div>
-        </div>
+        
+            <div id="logo" class="box , col-span-1 , m-col-start-1 , m-col-end-4 , l-col-start-1 , l-col-end-4">logo</div>
+            <div id="nav" class="box , col-span-2 , m-col-start-4 , m-col-end-13 , l-col-start-4 , l-col-end-13">Nav</div>
+            <div id="search" class="box , col-span-1">search</div>
+       
     </header>
     <main>
         <!-- section---------------1 -->
-        <section>
+        <section id="sec-1" class="grid-con" >
             <h2 class="hidden">main-img</h2>
-            <div class="box">
+            <div id="main-img" class="box , col-span-4 , full m-col-span-full">
                 <img src="#" alt="main-img">
             </div>
         </section>
         <!-- section-----------2 -->
-        <section>
-            <a href="#">View More</a>
-            <div class="box">
-                <div>Product-1</div>
-                <div>Button</div>
+        <section id="sec-2" class="grid-con">
+            <a id="view-more" class="col-start-4 , col-end-5 , m-col-start-11 , m-col-end-13 , l-col-start-11 , l-col-end-13" href="#">View More</a>
+            <div id="Product-1" class="box , col-start-1 , col-end-3 , m-col-start-2 , m-col-end-7">
+                <div class="pro">Product-1</div>
+                <div class="button ">Button</div>
                 <p>idfkncmqiaenpriqe;rvnqeuniendicndcnjdnuiurfinjqdncjenijninenrvijvnrrvojfofv</p>
             </div>
-            <div class="box">
-                <div>Product-2</div>
-                <div>Button</div>
+            <div id="Product-2" class="box , col-start-3 , col-end-5 , m-col-start-7 , m-col-end-12 , l-col-start-7 , l-col-end-12">
+                <div class="pro">Product-2</div>
+                <div class="button ">Button</div>
                 <p>idfkncmqiaenpriqe;rvnqeuniendicndcnjdnuiurfinjqdncjenijninenrvijvnrrvojfofv</p>
             </div>
         </section>
         <!-- section---------------3 -->
-        <section class="box">
-            <div>Product-3</div>
-            <div>Button</div>
-            <div>Button</div>
-            <p>idfkncmqiaenpriqe;rvnqeuniendicndcnjdnuiurfinjqdncjenijninenrvijvnrrvojfofv</p>
-        </section>
+        <div class="grid-con ">
+            <section id="sec-3" class="box col-span-full">
+                <div class="pro">Product</div>
+                <div class="button ">Button</div>
+                <div class="button ">Button</div>
+                <p>idfkncmqiaenpriqe;rvnqeuniendicndcnjdnuiurfinjqdncjenijninenrvijvnrrvojfofv</p>
+            </section>
+        </div>
 
 
     </main>
 
-    <footer>
-        <div class="box">
+    <footer id="footer" class="grid-con">
+        <div id="footer1" class="box , m-col-start-1 , m-col-end-4 , l-col-start-1 , l-col-end-4">
             <p>Text</p>
             <p>Text</p>
             <p>Text</p>
             <p>Text</p>
             <p>Text</p>
             <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
-            <p>Text</p>
+            </div>
+            <div id="footer2" class="box , m-col-start-4 , m-col-end-7 , l-col-start-4 , l-col-end-7">
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+            </div>
+            <div id="footer3" class="box , m-col-start-7 , m-col-end-10 ,  l-col-start-7 , l-col-end-10">
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+            </div>
+            <div id="footer4" class="box , m-col-start-10 , m-col-end-13 , l-col-start-10 , l-col-end-13">
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+                <p>Text</p>
+            </div>
         </div>
-        <div class="box">Icon</div>
-        <div class="box">Icon</div>
-        <div class="box">Icon</div>
-        <div class="box">Icon</div>
+        <div  class="box , icon , col-start-1 , col-end-1 , m-col-start-1 , m-col-end-4 , l-col-start-1 , l-col-end-4">Icon</div>
+        <div  class="box , icon , m-col-start-4 , m-col-end-7 , l-col-start-4 , l-col-end-7 ">Icon</div>
+        <div  class="box , icon , m-col-start-7 , m-col-end-10 , l-col-start-7 , l-col-end-10">Icon</div>
+        <div  class="box , icon , m-col-start-10 , m-col-end-13 , l-col-start-10 , l-col-end-13">Icon</div>
 
     </footer>
     

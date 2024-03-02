@@ -1,3 +1,37 @@
 .hidden{
     display: none;
 }
+#main-img{
+    height: 200px;
+   
+}
+
+p{
+    word-wrap: break-word;
+}
+.button{
+
+    display: inline-block;
+    padding: 12px 50px;
+
+    background-color: #3b2874;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    user-select: none;
+}
+.pro{
+    background-color: aliceblue;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:5px ;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: rgb(220, 131, 131);
+}
